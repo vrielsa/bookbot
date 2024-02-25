@@ -2,7 +2,7 @@ def count_words(text: str) -> int:
     words = text.split()
     return len(words)
 
-def count_letters(text: str):
+def count_letters(text: str) -> dict:
     lower_text = text.lower()
     r = dict()
     for l in lower_text:
